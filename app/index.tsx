@@ -1,11 +1,10 @@
-import { View, Text, ImageBackground, SafeAreaView } from "react-native";
-import React from "react";
 import beachImage from "@/assets/meditation-images/beach.webp";
-import { LinearGradient } from "expo-linear-gradient";
-import { StatusBar } from "expo-status-bar";
+import AppGradient from "@/components/AppGradient";
 import CustomButton from "@/components/CustomButton";
 import { useRouter } from "expo-router";
-import AppGradient from "@/components/AppGradient";
+import { StatusBar } from "expo-status-bar";
+import React from "react";
+import { ImageBackground, SafeAreaView, Text, View } from "react-native";
 
 const App = () => {
   const router = useRouter();
